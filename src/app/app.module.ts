@@ -17,6 +17,10 @@ import { Step1Component } from './registration/step1/step1.component';
 import { SubscriptionComponent } from './registration/subscription/subscription.component';
 import { AppRoutingModule } from './routing/app-routing.module';
 
+// Ngb Bootstrap Start
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+// Ngb Bootstrap End
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +39,8 @@ import { AppRoutingModule } from './routing/app-routing.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule //For Bootstrap
   ],
   providers: [],
   bootstrap: [AppComponent]
