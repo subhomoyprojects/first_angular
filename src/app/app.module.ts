@@ -14,6 +14,7 @@ import { HappyhoursComponent } from './registration/happyhours/happyhours.compon
 import { RegistrationcompletedComponent } from './registration/registrationcompleted/registrationcompleted.component';
 import { Step1Component } from './registration/step1/step1.component';
 import { SubscriptionComponent } from './registration/subscription/subscription.component';
+import { AppRoutingModule } from './routing/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { SubscriptionComponent } from './registration/subscription/subscription.
     SubscriptionComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
