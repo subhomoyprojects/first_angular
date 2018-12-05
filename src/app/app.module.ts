@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// Componennt Create
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './registration/header/header.component';
 import { FooterComponent } from './registration/footer/footer.component';
