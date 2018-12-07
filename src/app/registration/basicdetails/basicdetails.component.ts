@@ -12,4 +12,14 @@ export class BasicdetailsComponent implements OnInit {
   ngOnInit() {
   }
 
+  // For TimePicker
+  time = {hour: 13, minute: 30};
+  time1 = {hour: 13, minute: 30};
+  meridian = true;
+
+  toggleMeridian() {
+      this.meridian = !this.meridian;
+  }
+// For TimePicker
+
 }

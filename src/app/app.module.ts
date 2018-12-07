@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// Form Module
+import { FormsModule } from '@angular/forms';
+
 // Componennt Create
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './registration/header/header.component';
@@ -19,6 +22,7 @@ import { AppRoutingModule } from './routing/app-routing.module';
 
 // Ngb Bootstrap Start
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { from } from 'rxjs';
 // Ngb Bootstrap End
 
 @NgModule({
@@ -40,7 +44,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule //For Bootstrap
+    NgbModule, //For Bootstrap
+    FormsModule // For Form Module
   ],
   providers: [],
   bootstrap: [AppComponent]
