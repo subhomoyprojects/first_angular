@@ -11,5 +11,7 @@ export class AddmoreinformationComponent implements OnInit {
 
   ngOnInit() {
   }
+  
+  isCollapsed = false;
 
 }
