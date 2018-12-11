@@ -5,6 +5,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 // Owl Carousel
 import { CarouselModule } from 'ngx-owl-carousel-o';
+// Browser Animation Module
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Componennt Create
 import { AppComponent } from './app.component';
@@ -48,7 +50,8 @@ import { from } from 'rxjs';
     AppRoutingModule,
     NgbModule, //For Bootstrap
     FormsModule, // For Form Module
-    CarouselModule // For Owl Carousel
+    CarouselModule, // For Owl Carousel
+    BrowserAnimationsModule // Animation Module
   ],
   providers: [],
   bootstrap: [AppComponent]
