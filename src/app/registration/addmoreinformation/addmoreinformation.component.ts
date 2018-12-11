@@ -12,6 +12,6 @@ export class AddmoreinformationComponent implements OnInit {
   ngOnInit() {
   }
   
-  isCollapsed = false;
+  isCollapsed = false; // Social Media Updown
 
 }
