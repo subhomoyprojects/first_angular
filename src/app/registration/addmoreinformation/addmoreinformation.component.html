@@ -15,7 +15,7 @@
                       <owl-carousel-o class="img_and_video_slider_controller" [options]="owl1">
                         
                         <ng-template carouselSlide id="owl-slide-1">
-                          <div class="thumbnel_holder">
+                          <div class="thumbnel_holder" (click)="open(open_big_image)">
                             <img src="../assets/images/thumbnel_1.jpg" alt="Thumbnel">
                             <button type="button" class="video_icon"></button>
                             <button type="button" class="close_btn"></button>
@@ -128,15 +128,15 @@
               </div>
           </div>
       </div>
-      <!-- <ng-template #open_big_image let-c="close" let-d="dismiss" class="modal_controller">
-          <div class="modal-body">
-            <button type="button" class="close close_btn model_close" aria-label="Close" (click)="d('Cross click')"></button>
+      <ng-template #open_big_image let-c="close" let-d="dismiss" class="modal_controller">
+        <div class="modal-body">
+          <button type="button" class="close close_btn model_close" aria-label="Close" (click)="d('Cross click')"></button>
 
-            <div class="fancy_box">
-              <img src="/assets/images/thumbnel_1.jpg" alt="Big Image">
-            </div>
+          <div class="fancy_box">
+            <img src="/assets/images/thumbnel_1.jpg" alt="Big Image">
           </div>
-        </ng-template> -->
+        </div>
+      </ng-template>
   </section>
 </main>
 <app-footer></app-footer>
