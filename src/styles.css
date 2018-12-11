@@ -323,11 +323,11 @@ select{
 
 .owl-controler .owl-nav{
     top: 50%;
-    margin-top: -10px;
+    margin-top: -10px !important;
     position: absolute;
     width: 100%;
 }
-.owl-theme .owl-nav [class*="owl-"] {
+.owl-controler .owl-theme .owl-nav [class*="owl-"] {
     margin: 0;
     border-radius: 0;
     position: absolute;
