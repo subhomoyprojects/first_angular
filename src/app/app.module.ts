@@ -2,11 +2,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 // Form Module
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 // Owl Carousel
 import { CarouselModule } from 'ngx-owl-carousel-o';
 // Browser Animation Module
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+//  Mat Chip Module
+import {MatChipsModule} from '@angular/material/chips';
+import {MatAutocompleteModule} from '@angular/material';
+//  Mat Icon Module
+import {MatIconModule} from '@angular/material';
+// Mat From Field Module
+import { MatFormFieldModule, MatInputModule } from '@angular/material';
 
 // Componennt Create
 import { AppComponent } from './app.component';
@@ -51,7 +58,13 @@ import { from } from 'rxjs';
     NgbModule, //For Bootstrap
     FormsModule, // For Form Module
     CarouselModule, // For Owl Carousel
-    BrowserAnimationsModule // Animation Module
+    BrowserAnimationsModule, // Animation Module
+    MatChipsModule, // For Mat Chip
+    MatAutocompleteModule, // For Auto Complete
+    MatIconModule, // For Metarial Icon (It is for metarial icon)
+    ReactiveFormsModule, // For From Module chip
+    MatFormFieldModule, // For From Field
+    MatInputModule // For From Field
   ],
   providers: [],
   bootstrap: [AppComponent]
