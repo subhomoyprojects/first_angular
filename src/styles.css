@@ -179,9 +179,9 @@ select{
 .mat-form-field.mat-focused.mat-primary .mat-select-arrow{
     color:transparent;
 }
-.mat-select-arrow-wrapper{
+/* .mat-select-arrow-wrapper{
     position: relative;
-}
+} */
 .mat-select-arrow-wrapper::after{
     position: absolute;
     content: "\f107";
