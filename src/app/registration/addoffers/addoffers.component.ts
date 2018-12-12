@@ -11,8 +11,10 @@ import {FormControl} from '@angular/forms';
   styleUrls: ['./addoffers.component.css']
 })
 export class AddoffersComponent implements OnInit {
+  // For Multy Select
   toppings = new FormControl();
   toppingList: string[] = ['Extra cheese', 'Mushroom', 'Onion', 'Pepperoni', 'Sausage', 'Tomato'];
+  // For Multy Select
   constructor() { }
 
   ngOnInit() {
