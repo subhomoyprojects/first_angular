@@ -14,6 +14,8 @@ import {MatAutocompleteModule} from '@angular/material';
 import {MatIconModule} from '@angular/material';
 // Mat From Field Module
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
+// Multy Select
+import {MatSelectModule} from '@angular/material/select';
 
 // Componennt Create
 import { AppComponent } from './app.component';
@@ -64,7 +66,8 @@ import { from } from 'rxjs';
     MatIconModule, // For Metarial Icon (It is for metarial icon)
     ReactiveFormsModule, // For From Module chip
     MatFormFieldModule, // For From Field
-    MatInputModule // For From Field
+    MatInputModule, // For From Field
+    MatSelectModule // Multy Select
   ],
   providers: [],
   bootstrap: [AppComponent]

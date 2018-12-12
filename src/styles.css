@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Ubuntu:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
-@import "~@angular/material/prebuilt-themes/indigo-pink.css"; /*angular material theme for global */
 /*
 
     font-family: 'Lato', sans-serif;
@@ -142,13 +141,13 @@ select{
 }
 .mat-pseudo-checkbox::after,.mat-pseudo-checkbox-checked::after{
     border: none !important;
-    width: 12px !important;
-    height: 12px !important;
+    width: 10px !important;
+    height: 10px !important;
     background-color: #8f2de2 !important;
     -webkit-transform: rotate(0deg) !important;
     transform: rotate(0deg) !important;
-    left: 2px !important;
-    top: 2px !important;
+    left: 1px !important;
+    top: 1px !important;
 }
 .mat-primary .mat-pseudo-checkbox-checked, .mat-primary .mat-pseudo-checkbox-indeterminate {
     background: transparent;
