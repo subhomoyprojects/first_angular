@@ -155,7 +155,7 @@ select{
 .mat-select-content, .mat-select-panel-done-animating {
     background: #f4f4f4;
 }
-/*.cdk-overlay-pane{
+.cdk-overlay-pane{
     transform: translateX(-50%) !important;
     left: 50% !important;
     overflow-x: hidden;
@@ -163,7 +163,7 @@ select{
  .ng-trigger{
     min-width:100% !important;
     width: 100% !important;
-} */
+}
 .mat-form-field.mat-focused.mat-primary .mat-select-arrow,
 .mat-form-field.mat-focused .mat-form-field-label,
 .mat-form-field.mat-focused.mat-primary .mat-select-arrow{
@@ -179,9 +179,9 @@ select{
 .mat-form-field.mat-focused.mat-primary .mat-select-arrow{
     color:transparent;
 }
-/* .mat-select-arrow-wrapper{
+.mat-select-arrow-wrapper{
     position: relative;
-} */
+}
 .mat-select-arrow-wrapper::after{
     position: absolute;
     content: "\f107";
