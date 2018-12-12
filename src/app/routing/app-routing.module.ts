@@ -7,7 +7,6 @@ import { BasicdetailsComponent } from '../registration/basicdetails/basicdetails
 import { AddfoodsComponent } from '../registration/addfoods/addfoods.component';
 import { AddmoreinformationComponent } from '../registration/addmoreinformation/addmoreinformation.component';
 import { DrinkcategoryComponent } from '../registration/drinkcategory/drinkcategory.component';
-import { HappyhoursComponent } from '../registration/happyhours/happyhours.component';
 import { AddoffersComponent } from '../registration/addoffers/addoffers.component';
 import { RegistrationcompletedComponent } from '../registration/registrationcompleted/registrationcompleted.component';
 import { from } from 'rxjs';
@@ -21,7 +20,6 @@ const routes: Routes = [
   { path: 'registration/addfoods', component: AddfoodsComponent },
   { path: 'registration/addmoreinfo', component: AddmoreinformationComponent },
   { path: 'registration/drinkcategory', component: DrinkcategoryComponent },
-  { path: 'registration/happyhours', component: HappyhoursComponent },
   { path: 'registration/addoffers', component: AddoffersComponent },
   { path: 'registration/rgcompleted', component: RegistrationcompletedComponent }
 ];
