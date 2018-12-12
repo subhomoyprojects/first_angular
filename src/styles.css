@@ -155,12 +155,12 @@ select{
 .mat-select-content, .mat-select-panel-done-animating {
     background: #f4f4f4;
 }
-.cdk-overlay-pane{
+/*.cdk-overlay-pane{
     transform: translateX(-50%) !important;
     left: 50% !important;
     overflow-x: hidden;
 }
-/* .ng-trigger{
+ .ng-trigger{
     min-width:100% !important;
     width: 100% !important;
 } */
